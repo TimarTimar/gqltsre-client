@@ -14,7 +14,7 @@ const httpLink = createHttpLink({
 	uri: process.env.REACT_APP_SERVER_URL,
 	credentials: "include",
 });
-/*
+
 const authLink = setContext(() => {
 	const token = localStorage.getItem("jwtToken");
 	return {
@@ -22,8 +22,8 @@ const authLink = setContext(() => {
 			Authorization: token ? `Bearer ${token}` : "",
 		},
 	};
-});*/
-
+});
+/*
 const authLink = setContext((_, { headers }) => {
 	// get the authentication token from local storage if it exists
 	const token = localStorage.getItem("token");
@@ -35,7 +35,7 @@ const authLink = setContext((_, { headers }) => {
 		},
 	};
 });
-
+*/
 const client = new ApolloClient({
 	link: authLink.concat(httpLink),
 	cache: new InMemoryCache(),
