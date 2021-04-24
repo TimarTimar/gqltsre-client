@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://awesome-neumann-6b754b.netlify.app/",
   "dependencies": {
     "@apollo/client": "^3.3.14",
     "@craco/craco": "^6.1.1",
