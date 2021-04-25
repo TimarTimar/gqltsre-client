@@ -1,6 +1,6 @@
 //List of all the surveys. User can create delete edit and send surveys from here.
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Modal from "../components/Modal";
 
 import { useMutation, useQuery } from "@apollo/client";
