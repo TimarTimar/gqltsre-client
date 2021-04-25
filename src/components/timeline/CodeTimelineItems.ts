@@ -4,7 +4,7 @@ const timelineItems = [
 		title: "Going live",
 		location: "Online, Udemy",
 		description:
-			"I deployed my client on Netlify and the server on Heroku. You can check my repos on my Github profile as gqltsre-client and gqltsre-server (~20hr)",
+			"I deployed my client on Netlify and the server on Heroku. You can check my repos on my Github profile as gqltsre-client and gqltsre-server. (~20hr)",
 		buttonText: "My Github",
 		buttonHref: "https://github.com/TimarTimar",
 		date: "2021 Apr",
@@ -15,7 +15,7 @@ const timelineItems = [
 		title: "Learning GraphQL with Apollo",
 		location: "Online, Udemy",
 		description:
-			"I went through on a tutorial project and I converted that back to my project. Apollo Server's caching mechanism really improved the app's performance. (~100hr)",
+			"I went through on a tutorial project, and I converted that back to my project. Apollo Server's caching mechanism really improved the app's performance. (~100hr)",
 		buttonText: "Repo: graphql-typescript-emailmar",
 		buttonHref: "https://github.com/TimarTimar/graphql-typescript-emailmar",
 		date: "2021 Apr",
@@ -26,7 +26,7 @@ const timelineItems = [
 		title: "Learning Typescript",
 		location: "Online, Udemy",
 		description:
-			"I read the offical TS handbook. I migrated my NodeJS + React project from JS to TS. I replaced Redux Form with Formik. Learning Typescript helped me a lot because I had to go through on everything I learned in the last project. (~100hr)",
+			"I read the official TS handbook. I migrated my NodeJS + React project from JS to TS. I replaced Redux Form with Formik. Learning Typescript helped me a lot because I had to go through on everything I learned in the last project. (~100hr)",
 		buttonText: "Repo: ts-emailmar",
 		buttonHref: "https://github.com/TimarTimar/ts-emailmar",
 		date: "2021 Feb - 2021 Apr",

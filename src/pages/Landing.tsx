@@ -7,7 +7,7 @@ const Landing = () => {
 		<Container>
 			<Message color="teal">
 				<p>
-					Altough every email's from address will be tamasbelinszky@gmail.com,
+					Although every email's from address will be tamasbelinszky@gmail.com,
 					feel free to test out all the features.
 				</p>
 				<p>
@@ -17,8 +17,12 @@ const Landing = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						Stripe's test card number
+						Stripe's test card number.
 					</a>
+				</p>
+				<p>
+					If you prefer you can login as bob with the pw bob, where I created
+					some mock data.
 				</p>
 			</Message>
 			<div className="pt-32 pb-12 md:pt-20 md:pb-20">
