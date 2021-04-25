@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Grid, Header, Message, Segment } from "semantic-ui-react";
+import {
+	Container,
+	Divider,
+	Grid,
+	Header,
+	Message,
+	Segment,
+	Image,
+} from "semantic-ui-react";
 import Timeline from "../components/timeline/Timeline";
 
 const Landing = () => {
@@ -81,6 +89,13 @@ const Landing = () => {
 				</Grid>
 			</Segment>
 			<Timeline />
+			<Divider />
+			<Image
+				src="\public\clockify_dashboard_timeline.jpg"
+				size="medium"
+				bordered
+				centered
+			/>
 		</Container>
 	);
 };
