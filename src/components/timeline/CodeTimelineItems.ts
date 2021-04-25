@@ -2,7 +2,7 @@ const timelineItems = [
 	{
 		id: 1,
 		title: "Going live",
-		location: "Online, Udemy",
+		location: "",
 		description:
 			"I deployed my client on Netlify and the server on Heroku. You can check my repos on my Github profile as gqltsre-client and gqltsre-server. (~20hr)",
 		buttonText: "My Github",
@@ -13,7 +13,7 @@ const timelineItems = [
 	{
 		id: 2,
 		title: "Learning GraphQL with Apollo",
-		location: "Online, Udemy",
+		location: "",
 		description:
 			"I went through on a tutorial project, and I converted that back to my project. Apollo Server's caching mechanism really improved the app's performance. (~100hr)",
 		buttonText: "Repo: graphql-typescript-emailmar",
@@ -24,7 +24,7 @@ const timelineItems = [
 	{
 		id: 3,
 		title: "Learning Typescript",
-		location: "Online, Udemy",
+		location: "",
 		description:
 			"I read the official TS handbook. I migrated my NodeJS + React project from JS to TS. I replaced Redux Form with Formik. Learning Typescript helped me a lot because I had to go through on everything I learned in the last project. (~100hr)",
 		buttonText: "Repo: ts-emailmar",
@@ -35,7 +35,7 @@ const timelineItems = [
 	{
 		id: 4,
 		title: "Extending the NodeJS+React Udemy course's project",
-		location: "Online, Udemy",
+		location: "",
 		description:
 			"I extended the project with my own features both on the Backend and Frontend. I also converted all class based components into function components. Everything after 'complete base funcionality' commit c41f2e848bb5345b9055f63131180c4ea5596741.  (~100hr)",
 		buttonText: "Repo: emailmar",
