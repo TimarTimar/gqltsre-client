@@ -9,6 +9,7 @@ import {
 	Image,
 } from "semantic-ui-react";
 import Timeline from "../components/timeline/Timeline";
+import clockify_dashboard_timeline from "../img/clockify_dashboard_timeline.jpg";
 
 const Landing = () => {
 	return (
@@ -90,12 +91,15 @@ const Landing = () => {
 			</Segment>
 			<Timeline />
 			<Divider />
-			<Image
-				src="\public\clockify_dashboard_timeline.jpg"
-				size="medium"
-				bordered
-				centered
-			/>
+			<Segment>
+				<Image
+					src={clockify_dashboard_timeline}
+					alt={clockify_dashboard_timeline}
+					fluid
+					bordered
+					centered
+				/>
+			</Segment>
 		</Container>
 	);
 };
