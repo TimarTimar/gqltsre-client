@@ -1,17 +1,28 @@
 const timelineItems = [
 	{
 		id: 1,
+		title: "Going live",
+		location: "Online, Udemy",
+		description:
+			"I deployed my client on Netlify and the server on Heroku. You can check my repos on my Github profile as gqltsre-client and gqltsre-server (~20hr)",
+		buttonText: "My Github",
+		buttonHref: "https://github.com/TimarTimar",
+		date: "2021 Apr",
+		icon: "work",
+	},
+	{
+		id: 2,
 		title: "Learning GraphQL with Apollo",
 		location: "Online, Udemy",
 		description:
 			"I went through on a tutorial project and I converted that back to my project. Apollo Server's caching mechanism really improved the app's performance. (~100hr)",
 		buttonText: "Repo: graphql-typescript-emailmar",
 		buttonHref: "https://github.com/TimarTimar/graphql-typescript-emailmar",
-		date: "2021 Apr - Present",
+		date: "2021 Apr",
 		icon: "work",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Learning Typescript",
 		location: "Online, Udemy",
 		description:
@@ -22,7 +33,7 @@ const timelineItems = [
 		icon: "work",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Extending the NodeJS+React Udemy course's project",
 		location: "Online, Udemy",
 		description:
@@ -33,7 +44,7 @@ const timelineItems = [
 		icon: "work",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Learning NodeJS with React",
 		location: "Online, Udemy",
 		description:
@@ -45,7 +56,7 @@ const timelineItems = [
 		icon: "school",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Learning React with Redux",
 		location: "Online, Udemy",
 		description:
@@ -56,7 +67,7 @@ const timelineItems = [
 		icon: "school",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Learning Javascript, HTML, CSS",
 		location: "Online, Udemy",
 		description:
