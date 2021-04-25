@@ -7,6 +7,7 @@ import { useMutation } from "@apollo/client";
 import {
 	CREATE_SURVEY_AND_SEND_MUTATUION,
 	CREATE_SURVEY_MUTATUION,
+	FETCH_SURVEYSBYUSER_QUERY,
 } from "../../../util/graphql";
 import { Button, Divider } from "semantic-ui-react";
 
@@ -25,6 +26,7 @@ export const FormikSurveyNew = () => {
 
 	const [createSurveyAndSend] = useMutation(CREATE_SURVEY_AND_SEND_MUTATUION, {
 		variables: formikFormValues,
+		refetchQueries: [{ query: FETCH_SURVEYSBYUSER_QUERY }],
 	});
 
 	const renderContent = () => {

@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useMutation } from "@apollo/client";
 import { SurveyInterface } from "./types";
-import { QUICK_SEND_SURVEY_MUTATION } from "../../util/graphql";
+import {
+	FETCH_SURVEYSBYUSER_QUERY,
+	QUICK_SEND_SURVEY_MUTATION,
+} from "../../util/graphql";
 import { Button } from "semantic-ui-react";
 
 export interface SurveyWithModalAndFilter extends SurveyInterface {
@@ -23,6 +26,7 @@ const SurveyListItem = ({
 		variables: {
 			surveyId: id,
 		},
+		refetchQueries: [{ query: FETCH_SURVEYSBYUSER_QUERY }],
 	});
 	const conditionalDraftRendering = (_id: string, state: "sent" | "draft") => {
 		return {

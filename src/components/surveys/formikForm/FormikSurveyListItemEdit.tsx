@@ -6,6 +6,7 @@ import { FormikSurveyForm } from "./FormikSurveyForm";
 
 import {
 	EDIT_SURVEY_AND_SEND_MUTATION,
+	FETCH_SURVEYSBYUSER_QUERY,
 	FETCH_SURVEY_QUERY,
 	SAVE_AS_DRAFT_SURVEY_MUTUTATION,
 } from "../../../util/graphql";
@@ -58,6 +59,7 @@ export const FormikSurveyListItemEdit = () => {
 			subject: formikFormValues.subject,
 			recipients: formikFormValues.recipients,
 		},
+		refetchQueries: [{ query: FETCH_SURVEYSBYUSER_QUERY }],
 	});
 
 	async function wrapEditSurveyAndSend(data: FormikSurveyFormValues) {

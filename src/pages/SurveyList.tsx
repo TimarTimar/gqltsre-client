@@ -41,8 +41,6 @@ const SurveyList = () => {
 		},
 	});
 
-	useEffect(() => {}, []);
-
 	const renderFilterSelection3 = () => {
 		const tagOptions = [
 			{
